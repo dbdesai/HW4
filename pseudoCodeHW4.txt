@@ -26,9 +26,9 @@ Crystal Collector - guessing game using numbers
 8  when game restart, player assigned new rando #. all crystals have new hidden values and player total reset to 0 
 
 
- function that assigns rando # between 19 - 120 to var computerGuess = math.random
+ function that assigns random # between 19 - 120 to var computerGuess = math.random
 
- function to assign rando # between 1-12 to 4 crystal var
+ function to assign random # between 1-12 to 4 crystal var
 
  (if statement for computerGuess == userGuess  (you win)
 
@@ -47,7 +47,7 @@ crystals between 1 - 12
 4 crystals 
 
 
-var that creates "computerGuess" - function to asign rando # to computerGuess
+var that creates "computerGuess" - function to assign random # to computerGuess
 
 var win = 0 
 
