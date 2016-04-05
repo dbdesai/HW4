@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Crystal Game</title>
+</head>
+
+<body>
+	
+	<div class="page-header">
+	  <h1>You are: THE CRYSTAL COLLECTOR!</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="panel panel-default">
+			  <div class="panel-heading">How to Play!</div>
+				<ul class="list-group">
+				  <li class="list-group-item">To start, you are given a random number.</li>
+				  <li class="list-group-item">There are four crystals to select from below. Clicking on a crystal will add a specific amount of points to your total score.</li>
+				  <li class="list-group-item">In order to win the game; <bold>match</bold> your total score to a random number. You will lose the game if your total score <bold>surpasses</bold> the random number.</li>
+				  <li class="list-group-item">The value of each crystal is hidden from you until you click on the crystal of your choice.</li>
+				  <li class="list-group-item">The value of the crystals and random number will change after the completion each game.</li>
+				</ul>
+			</div>
+		</div>
+
+	<div class="well well-lg">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Random Number:</h2>	<h3><span id="randomNumber" class="label label-warning"></span></h3>
+			</div>
+
+			<div class="col-md-3">
+			<p><h2>Wins: </h2><h3><span id="wins" class="label label-warning"></span></h3></p>
+						<!-- Your score -->
+				
+			</div>
+
+			<div class="col-md-3">
+					<!-- Wins/Losses -->
+					
+					<p><h2>Losses: </h2><h3><span id="losses" class="label label-warning"></span></h3></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<!-- Crystal buttons -->
+		<div class="col-md-6 col-md-offset-3 image-container">
+			<div type="button" class="btn btn-default" id="red">
+				<img src="assets/images/red.png" alt="Red Crystal" height=100px width=100px>
+			</div>
+			<div type= "button" class="btn btn-default" id="blue">
+				<img src="assets/images/blue.png" alt="Blue Crystal" height=100px width=100px>
+			</div>
+			<div type="button" class="btn btn-default" id="yellow">
+				<img src="assets/images/yellow.png" alt="Yellow Crystal" height=100px width=100px>
+			</div>
+			<div type="button" class="btn btn-default" id="green">
+				<img src="assets/images/green.png" alt="Green Crystal" height=100px width=100px>
+			</div>
+		</div>
+				
+	</div>
+	<div class="well well-md">
+		<div class="row">
+			<div class="col-md-12">
+			<h3>Your Total Score is: <span id="score" class="label label-warning"></span></h3>
+			</div>
+		</div>
+	</div>
+<div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+		
+	</script>
+	
+	     <script src='assets/javascript/game.js'>    
+
+	</script>
+</body>
+
+<footer>
+		<p style= text align=center>DBDESAI</p>
+		</footer>
+</html>

@@ -1,0 +1,43 @@
+body {
+	background-image: url('../images/crystalbackS.jpg');
+	
+
+}
+
+.page-header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h1 {
+	font-weight: bold;
+	color: #FFFF66;
+}
+
+h2{
+	color: red;
+	font-weight: bold;
+}
+h3 {
+	color: red;
+	font-weight: bold;
+}
+
+.panel-heading{
+	font-weight: bold;
+	font-size: 30px;
+	
+	
+}
+
+.list-group-item {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer {
+	font-weight: bold;
+	margin-top: 60px;
+	color: #FFFF66;
+}
