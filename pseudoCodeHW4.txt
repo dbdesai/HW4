@@ -1,0 +1,62 @@
+define variables 
+make place for functions
+create code i.e javascript outside of functions 
+
+
+
+
+
+
+Crystal Collector - guessing game using numbers 
+
+1 player shown random number at start
+
+2 player click crystal - adds specific amount of points to player total 
+
+3 player wins if total score matches random #
+
+4 player loses if game total score is above random #
+
+5 crystal points not shown to player BUT total score is displayed and updates after crystal click
+
+6 win lose displayed 
+
+7 game restarts after win or loss, count increments 
+
+8  when game restart, player assigned new rando #. all crystals have new hidden values and player total reset to 0 
+
+
+ function that assigns rando # between 19 - 120 to var computerGuess = math.random
+
+ function to assign rando # between 1-12 to 4 crystal var
+
+ (if statement for computerGuess == userGuess  (you win)
+
+ else if userGuess > compuerGuess (you lose ))
+
+ jquery click listener function for each crystal & display and update crystal click 
+
+ jquery win loss display 
+
+ call reset function within click function
+
+
+
+
+crystals between 1 - 12 
+4 crystals 
+
+
+var that creates "computerGuess" - function to asign rando # to computerGuess
+
+var win = 0 
+
+var losses = 0 
+
+4 var 1 for each crystal ( to be assigned #) - function to assign # to crystals when clicked 
+
+var usertotal = 0 (changes as game goes)
+
+reset function 
+
+
